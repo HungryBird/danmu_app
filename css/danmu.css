@@ -1,0 +1,61 @@
+@charset "UTF-8";
+.danmu-content {
+  margin: 40px auto;
+  overflow: hidden;
+  background-color: #F4F5DD;
+  min-height: 400px;
+  position: relative;
+}
+.danmu-content .dm {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "微软雅黑";
+  position: absolute;
+  white-space: nowrap;
+}
+.danmu-content .dmColor1 {
+  color: #000 !important;
+}
+.danmu-content .dmColor2 {
+  color: #f00 !important;
+}
+.danmu-content .dmColor3 {
+  color: #0f0 !important;
+}
+.danmu-content .dmColor4 {
+  color: #00f !important;
+}
+.danmu-content .dmColor5 {
+  color: #ff0 !important;
+}
+.danmu-content .dmColor6 {
+  color: #0ff !important;
+}
+.danmu-content .dmColor7 {
+  color: #f0f !important;
+}
+.danmu-content .dm-shadow {
+  text-shadow: white 1px 0px 1px, white 0px 1px 1px, white 0px -1px 1px, white -1px 0px 1px;
+}
+.danmu-content .user-dm {
+  padding: 0 2px;
+  border-radius: 4px;
+  border: 2px solid lightblue;
+  text-shadow: black 1px 0px 1px, black 0px 1px 1px, black 0px -1px 1px, black -1px 0px 1px;
+  color: #fff;
+}
+
+.input-danmu {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.danmu-btn {
+  text-align: center;
+  margin-top: 40px;
+}
+.danmu-btn .btn {
+  width: 160px;
+}
+
+/*# sourceMappingURL=danmu.css.map */
